@@ -36,7 +36,7 @@ if (isset($_POST['input'])) {
         $firstname = $result['firstname'];
         $othername = $result['othername'];
         $surname = $result['surname'];
-        $department = $result['department'];
+        $department = $result['department_id'];
         $house = $result['house'];
         $class = $result['class'];
         $id = $result['studentID'];
